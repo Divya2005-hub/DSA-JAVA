@@ -1,0 +1,9 @@
+package constructor;
+
+	class animal {
+	    Animal(String type) {
+		 System.out.println("Animal constructor: " + type);
+
+}
+	}
+	

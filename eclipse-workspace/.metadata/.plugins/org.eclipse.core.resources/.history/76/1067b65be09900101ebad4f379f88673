@@ -1,0 +1,28 @@
+package Loops;
+
+public class Prim_number {
+public static void main(String[] args) {
+	int n = 50,num = 2;
+	
+	while(num<=n) {
+	boolean prime = true;
+	int i=2;
+	while(i<= num/2) {
+		if(num % i== 0) {
+			prime = false;
+			break;
+	
+		}
+		i++;
+	}
+	if(prime) {
+		System.out.print(num+"\t");
+	}
+	num++;
+}
+}
+}
+		
+	
+
+

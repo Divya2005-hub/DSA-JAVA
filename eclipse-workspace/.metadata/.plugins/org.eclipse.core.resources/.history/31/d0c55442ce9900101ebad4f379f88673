@@ -1,0 +1,11 @@
+package constructor;
+
+	class Animal {
+	public static void main(String[] args) {
+		Animal (string type)
+	} {
+		 System.out.println("Animal constructor: " + type);
+
+}
+	}
+	

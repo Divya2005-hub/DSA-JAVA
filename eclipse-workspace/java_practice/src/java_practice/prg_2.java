@@ -1,0 +1,14 @@
+package java_practice;
+
+public class prg_2 {
+	public static void main(String[] args) {
+		int num=7;
+		if (num %2 == 0) {
+			System.out.println("it is a even number");
+		}
+		else {
+			System.out.println("it is a odd number");
+		}
+	}
+
+}

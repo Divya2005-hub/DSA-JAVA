@@ -1,0 +1,25 @@
+package com;
+
+public class Amstrongnumber {
+	public static void main (string[] args) {
+		int num = 153;
+		int original = num;
+		int sum = 0;
+		
+		while (num>0)
+		{
+			int digit = num % 10;
+			sum=sum + (digit * digit *digit);
+			num=num/10;
+		}
+		if (sum == origianl)
+		{
+			System.out.println("It is a armstrong number");
+		}
+		else {
+			System.out.println("It is not a armstrong number");
+			
+		}
+			
+	}
+}

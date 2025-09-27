@@ -1,0 +1,12 @@
+package day5;
+
+public class Testt {
+	public static void main(String[] args) {
+		{
+			System.out.println(10* 20 + "vijay");
+			System.out.println("vijay" + 10*20);
+		
+		}
+	}
+
+}

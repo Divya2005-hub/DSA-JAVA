@@ -1,0 +1,13 @@
+package constructor;
+
+public class MethodDemo{
+	public static void main(string[] args) {
+		System.out.println("Hello World");
+	}
+	public static void main (string[]args) {
+		printHelloworld();
+		printHelloworld();
+		printHelloworld();
+		
+	}
+}
